@@ -3,6 +3,8 @@
 
 This project shows the interaction of telnet requests in a telegram bot.<br />SNR, Huawei, BLM Ericsson switches have been tested.
 
+**Example to create a database in a file MySQL_config**
+
 **For correct operation the following libraries must be installed:**
 >pip3 install pyTelegramBotAPI<br />
 >pip install mysql-connector-python<br />
