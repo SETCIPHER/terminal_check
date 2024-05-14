@@ -5,6 +5,7 @@ This project shows the interaction of telnet requests in a telegram bot.<br />SN
 ## Installation
 For correct operation the following libraries must be installed:
 ``` {.bash}
+sudo apt install python3-pip
 pip3 install pyTelegramBotAPI
 pip install mysql-connector-python
 pip install pexpect
