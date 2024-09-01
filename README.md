@@ -14,10 +14,14 @@ Create a passwd.py file in the project.
 Specify access parameters
 ```{.bush}
 TOKEN = "1234567890:QwErTyUiOp{aSdFgHjKl987654321"
-ADMIN = [1234567890, 0987654321]t
+ADMIN = [1234567890, 0987654321]
 LOGIN = 'tacaсs_login'
 PASS = 'tacaсs_pass'
 USER = 'admin'
 SEC = 'pass'
 ```
 Example to create a database in a file MySQL_config
+```{.bush}
+CREATE USER 'user'@'localhost' IDENTIFIED BY 'qwerty1234';
+GRANT ALL PRIVILEGES ON *.* TO 'user'@'localhost' WITH GRANT OPTION;
+```
