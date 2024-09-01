@@ -1,4 +1,5 @@
 ﻿CREATE DATABASE DataDB;
+USE DataDB;
 CREATE TABLE table_db
 (id INT,
 mdu VARCHAR(50),
