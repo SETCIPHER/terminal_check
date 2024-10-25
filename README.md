@@ -24,4 +24,5 @@ Example to create a database in a file MySQL_config
 ```{.bush}
 CREATE USER 'user'@'localhost' IDENTIFIED BY 'qwerty1234';
 GRANT ALL PRIVILEGES ON *.* TO 'user'@'localhost' WITH GRANT OPTION;
+FLUSH PRIVILEGES;
 ```
